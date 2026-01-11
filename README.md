@@ -3,7 +3,7 @@
 ## Description
 This dataset contains pitch extremes and pitch range (ambitus) for the cello part of 55 cello sonatas based on score analysis. Data includes per-movement and total values for lowest pitch, highest pitch and ambitus, and score metadata such as composer, year, and accompaniment instrument, as well as a permalink to the score file on IMSLP and a specification of the treble clef octave used in the analysis of the score if applicable.
 
-In `wideformat_data_cellosonatas.csv` (wide format), each row represents one work, providing a compact overview of the data.
+In `wideformat_data_cellosonatas.csv` (wide format), each row represents one work, providing a compact overview of the data. 
 
 In `longformat_data_cellosonatas.csv` (long format), the wide dataset has been transformed into a long format with five rows per sonata: Four rows corresponding to each of the movements of the sonata (with empty cells if the work consists of less than four movements), and a fifth row for the pitch extremes and range across the sonata in total. The long format improves the usability of the dataset for statistical modeling and visualization.
 
