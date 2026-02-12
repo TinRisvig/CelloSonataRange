@@ -1,5 +1,7 @@
 # Dataset: Mapping the Pitch Range of Cello Parts in 55 Sonatas (1725-1938)
 
+[![DOI](https://zenodo.org/badge/1115848409.svg)](https://doi.org/10.5281/zenodo.18625265)
+
 ## Description
 This dataset contains pitch extremes and pitch range (ambitus) for the cello part of 55 cello sonatas based on score analysis. Data includes per-movement and total values for lowest pitch, highest pitch and ambitus, and score metadata such as composer, year, and accompaniment instrument, as well as a permalink to the score file on IMSLP and a specification of the treble clef octave reading used in the analysis of the score.
 
@@ -23,10 +25,10 @@ For reproducibility, the VBA script used for automated SPN to MIDI conversion is
 * **ambitus**: Pitch range in semitones ( = maxMIDI - minMIDI )
 
 Wide format:
-* "\_X" and "\_work" suffixes indicate whether a variable refers to movement number X or the work as a whole. Example: "minSPN\_1" column contains the lowest pitch (SPN) of the first movement of each work
+* "**\_X**" and "**\_work**" suffixes indicate whether a variable refers to movement number X or the work as a whole. Example: "minSPN\_1" column contains the lowest pitch (SPN) of the first movement of each work
 
 Long format:
-* scope indicates whether a row refers to a specific movement (1-4) or the work total (5).
+* **scope** indicates whether a row refers to a specific movement (1-4) or the work total (5).
 
 ## Units and pitch notation
 * Ambitus is expressed in semitones.
@@ -55,10 +57,14 @@ The CSV files are UTF-8 encoded and use semicolons as delimiter.
 ## Provenance
 The VBA script was drafted with assistance from generative AI (Microsoft Copilot).
 
-## License
-CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-
 ## Contact
 Tin Vinkler Risvig
 
 Email: <trisvi23@student.aau.dk>  or  <tinrisvig@gmail.com>
+
+## Citation
+
+Risvig, T. V. (2026). Dataset: Mapping the Pitch Range of Cello Parts in 55 Sonatas (1725-1938) (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18625266
+
+## License
+CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
